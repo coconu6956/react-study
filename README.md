@@ -10,3 +10,10 @@
 ## 2020-12-07
 스토리북 설치 
 03/ 폴더 생성
+스토리북 확장 도구 설치
+addon-actions, addon-jsx
+```
+yarn add --dev @storybook/addons @storybook/addon-actions
+```
+addon-actions 설정 추가하기
+
