@@ -17,3 +17,6 @@ yarn add --dev @storybook/addons @storybook/addon-actions
 ```
 addon-actions 설정 추가하기
 
+## 2020-12-08
+css 컴포넌트 스타일 적용
+머터리얼 디자인 (Material Design) -> 구글에서 공개한 디자인 가이드
