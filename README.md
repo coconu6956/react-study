@@ -12,6 +12,7 @@
 03/ 폴더 생성
 스토리북 확장 도구 설치
 addon-actions, addon-jsx
+
 ```
 yarn add --dev @storybook/addons @storybook/addon-actions
 ```
@@ -28,7 +29,7 @@ css 컴포넌트 스타일 적용
 **컴포넌트 개발법(CSS-in-JS)**
 긴 클래스 이름을 짧게 변환해 준다.
 
-```react-with-styles
+```react-with-styles```
 
 에어비앤비에서 공개한 스타일 컴포넌트, 자바스크립트에 친화적
 서버 출력 라이브러리와  스타일 클래스 압축 지원  -> 우수한 성능 자랑
