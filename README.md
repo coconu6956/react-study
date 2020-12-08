@@ -43,3 +43,7 @@ yarn add react-with-styles aphrodite react-with-styles-interface-aphrodite
 서버 출력이란?
 자바스크립트로 스타일을 적용하면 화면이 모두 출력된 이후 자바스크립트 엔진이 동작하며 적용하게 되므로 스타일 적용 시 시간 간격이 생김
 시간 간격을 줄이려면 **화면 출력을 시작하는 순간에 스타일 코드를 서버에 생성하여 같이 출력**
+
+## 2020-12-09
+
+withStyles() 함수
