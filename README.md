@@ -78,4 +78,8 @@ react-test-renderer: docuent.createELement() 함수없이 컴포넌트를 생성
 [enzyme] shallow(): 컴포넌트의 자식 컴포넌트를 생성하거나 출력하는 과정을 건너뛰고 현재 컴포넌트의 생명주기만 테스트
 [jest] toThrow(): 컴포넌트의 출력 오류 검사
 [jest] expect(): 특정 변수를 비교하거나 함수를 실행하여 발생한 결괏값을 검증
+spyOn()
+beforeEach()
+aftrEach()
+->각 테스트 코드가 실행되기 이전과 이후에 특정 설정을 추가하고 변경된 설정을 초기화하기 위해 실행되는 함수
 
