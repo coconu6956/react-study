@@ -64,3 +64,18 @@ withStyles() 함수
 "test": "react-script test",
 ```
 
+#### enzyme 라이브러리
+
+**컴포넌트의 기능만을 손쉽게 검사해주는 도구**
+
+```
+yarn add --dev enzyme enzyme-adapter-react-16.3 react-test-renderer
+```
+
+> enzyme-adapter-react-16.3 : 리액트 16.3 버전부터 지원하는 생명주기 함수를 위한 것
+react-test-renderer: docuent.createELement() 함수없이 컴포넌트를 생성할 수 있게 도와줍니다.
+
+[enzyme] shallow(): 컴포넌트의 자식 컴포넌트를 생성하거나 출력하는 과정을 건너뛰고 현재 컴포넌트의 생명주기만 테스트
+[jest] toThrow(): 컴포넌트의 출력 오류 검사
+[jest] expect(): 특정 변수를 비교하거나 함수를 실행하여 발생한 결괏값을 검증
+
