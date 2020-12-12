@@ -1,4 +1,4 @@
-import ThemedStyleSheet from 'react-wit-styles/lib/ThemedStyleSheet';
+import ThemedStyleSheet from 'react-with-styles/lib/ThemedStyleSheet';
 import aphroditeInterface from 'react-with-styles-interface-aphrodite';
 import { css, withStyles, withStylesPropsTypes } from 'react-with-styles';
 import Theme from './Theme';
