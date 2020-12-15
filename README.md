@@ -80,7 +80,7 @@ react-test-renderer: docuent.createELement() 함수없이 컴포넌트를 생성
 [jest] expect(): 특정 변수를 비교하거나 함수를 실행하여 발생한 결괏값을 검증
 spyOn()
 beforeEach()
-aftrEach()
+afterEach()
 ->각 테스트 코드가 실행되기 이전과 이후에 특정 설정을 추가하고 변경된 설정을 초기화하기 위해 실행되는 함수
 
 ## 2020-12-13
@@ -110,12 +110,29 @@ const result = formula(x);
 ```
 equation() <- 커링 함수
 
+[유튜브 강의][https://www.youtube.com/watch?v=VEAUpHod4cg]
+
+**상속**
+
+## 2020-12-15
+
+**reduce()** : 배열을 원하는 형태로 변경하는 것이 목적!
+
+{} : 객체 
+[] : 배열
 
 
+**compose()** -> 하이오더 함수 / 증가 함수
 
+```
+[multiplyTwo, multiplyThree, multiplyFour, addFour ].reduce(
+    function (prevFunc, nextFunc){
+        return function(value){
 
-
-
-
-
+        }
+    },
+    function(k) { return k; }
+);
+```
+prevFunc: 누적값, nextFunc: 누적할 값
 
