@@ -136,3 +136,54 @@ equation() <- 커링 함수
 ```
 prevFunc: 누적값, nextFunc: 누적할 값
 
+### 리덕스 
+
+하이오더는 천천히... 분산해서 공부...
+
+**리덕스** : 서버에서 가져온 데이터를 이용하여 새로운 결과물을 만드는 경우
+**컨텍스트** : 컴포넌트의 통합 데이터를 관리하는 경우 
+
+| 구분 | 설명 |
+| 프로퍼티 | 상위 컴포넌트에서 하위 컴포넌트로 전달되는 읽기 전용 데이터   |
+| state | 컴포넌트의 state를 저장하고 변경할 수 있는 데이터 |
+| 컨텍스트 | 부모 컴포넌트에서 생성하여 모든 자식 컴포넌트에 전달하는 데이터 |
+| 리덕스 | 서버에서 받은 데이터를 앱 전체에 전달하거나 관리 |
+
+#### 리덕스 설치
+```
+yarn add redux react-redux
+```
+
+#### 리덕스 개발자 도구 설치
+```
+yarn add redux-devtools-extension --dev
+```
+#### 리덕스 크롬 확장 도구
+-> redux devtools
+
+#### 리덕스 개발자 도구 연동
+```
+import React, { PureComponent } from 'react';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+
+class ReduxApp extends PureComponent {
+    store = createStore(
+        state => state,
+        window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+        );
+    render() {
+        return (
+            <Provider store={this.store}>
+                리덕스 예제
+            </Provider>
+        );
+    }
+}
+
+export default ReduxApp;
+```
+
+```
+window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+```
