@@ -196,6 +196,39 @@ window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 
 ### 그래프 데이터베이스 도입하기
 
+```
+const initState = {
+    ids: [],
+    entities: {},
+};
+
+export default (state = initState, action) => {
+    const { type, payload } = action;
+
+    switch(type){
+        default:
+            return state;
+    }
+};
+```
+> 검색속도 최적화하기 위해 '해시맵'구조 도입
+> '그래프에 저장되는 데이터의 순서'를 따로 배열로 저장
+> ids에 데이터 순서를, entities에 해시맵 형태로 데이터 저장
+
+#### 스토어 읽어 들이기
+
+store.getState() 함수를 이용하면 스토어 전체 객체에 접근할 수 있다.
+
+## 2020-12-21
+> 히히 나머지는 나중에 히히
+
+### 가상 코인 거래소 만들기
+
+
+
+
+
+
 
 
 
