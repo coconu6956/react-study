@@ -53,7 +53,7 @@ export default {
         level3: {
             boxShadow: '0 8px 17px 12px rgba(0,0,0,0.14)',
         },
-    }
+    },
     //길이 단위
     unit: 4,   
     //반응형 미디어 속성
