@@ -29,4 +29,4 @@ storiesOf('Doit-UI/Spacing', module)
                 <RedBox>vertical: 6</RedBox>
             </Spacing>
         </RedBox>
-    ))
+    ));
